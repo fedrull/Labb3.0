@@ -1,0 +1,102 @@
+[
+  {
+    "Statement": "What is the chemical symbol for the element gold?",
+    "Options": [ "Au", "Ag", "Fe", "Hg" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "Who is often called the 'Father of Computer Science'?",
+    "Options": [ "Ada Lovelace", "Alan Turing", "Bill Gates", "Steve Jobs" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Statement": "What is the capital of France?",
+    "Options": [ "Paris", "Berlin", "London", "Madrid" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the largest planet in our solar system?",
+    "Options": [ "Venus", "Earth", "Jupiter", "Mars" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "What programming language is known for its use in machine learning and artificial intelligence?",
+    "Options": [ "Python", "Java", "C++", "Ruby" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "Who developed the theory of relativity?",
+    "Options": [ "Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "What is the chemical symbol for the element carbon?",
+    "Options": [ "Ca", "Co", "C", "Cr" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "Which gas makes up the majority of Earth's atmosphere?",
+    "Options": [ "Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "What is the smallest prime number?",
+    "Options": [ "1", "0", "2", "3" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "In computer science, what does 'GUI' stand for?",
+    "Options": [ "Graphical User Interface", "General Utility Information", "Global Universal Integration", "General User Instruction" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the SI unit of electric current?",
+    "Options": [ "Ampere", "Volt", "Watt", "Ohm" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the result of 12 * 7?",
+    "Options": [ "84", "48", "72", "96" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the chemical symbol for the element silver?",
+    "Options": [ "Si", "Ag", "Sr", "Sv" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Statement": "Which planet is known as the 'Morning Star'?",
+    "Options": [ "Venus", "Earth", "Mars", "Mercury" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the process of converting data into a code to prevent unauthorized access?",
+    "Options": [ "Encoding", "Decoding", "Encryption", "Decryption" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Statement": "What is the result of 5^4 (5 raised to the power of 4)?",
+    "Options": [ "625", "256", "6250", "125" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What does 'HTTP' stand for in web technology?",
+    "Options": [ "Hypertext Transfer Protocol", "Hyperlink Text Transport", "High-Level Text Protocol", "Hyper Transfer Page" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "What is the SI unit of electric charge?",
+    "Options": [ "Coulomb", "Hertz", "Ampere", "Ohm" ],
+    "CorrectAnswerIndex": 0
+  },
+  {
+    "Statement": "How many sides does an octagon have?",
+    "Options": [ "6", "8", "10", "12" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Statement": "In physics, what is 'momentum' related to?",
+    "Options": [ "The rate of change of velocity", "The force of gravity", "The energy of motion", "The electromagnetic field" ],
+    "CorrectAnswerIndex": 2
+  }
+]

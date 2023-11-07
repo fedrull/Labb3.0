@@ -5,9 +5,8 @@ namespace Labb3_NET22.DataModels;
 
 public class Quiz
 {
-    private IEnumerable<Question> _questions;
-    private string _title = string.Empty;
-    public IEnumerable<Question> Questions => _questions;
+    public List<Question> _questions;
+    public string _title = string.Empty;
     public string Title => _title;
 
     public Quiz()
@@ -29,4 +28,10 @@ public class Quiz
     {
         throw new NotImplementedException("Question at requested index need to be removed here!");
     }
+
+
+    
+
+
+
 }

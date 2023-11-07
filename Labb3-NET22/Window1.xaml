@@ -1,0 +1,53 @@
+﻿<Window x:Class="Labb3_NET22.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labb3_NET22"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/windows-10.jpg"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Name="txtQuestion" TextAlignment="Center" FontSize="18" FontWeight="Bold" Padding="3" TextWrapping="Wrap" Grid.Column="2" Grid.Row="3" Grid.RowSpan="3">
+            Vilket element har kemiskt tecken "H" och är det lättaste och vanligaste i universum?
+        </TextBlock>
+
+        <Label Name="scoreText" FontSize="18" FontWeight="Bold" Grid.Row="1" Grid.Column="1"></Label>
+        <Label Name="questionOrder" FontSize="40" FontWeight="Bold" Grid.Column="2" Grid.Row="1" HorizontalContentAlignment="Center">Question</Label>
+
+        <Button Background="White" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.Row="3"  Name="ans1" Width="200" Height="50" Content="Answer 1" Tag="0" Click="checkAnswer"/>
+        <Button Background="White" FontSize="18" FontWeight="Bold" Grid.Column="3" Grid.Row="3"  Name="ans2" Width="200" Height="50" Content="Answer 2" Tag="1" Click="checkAnswer"/>
+        <Button Background="White" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.Row="5"  Name="ans3" Width="200" Height="50" Content="Answer 3" Tag="2" Click="checkAnswer"/>
+        <Button Background="White" FontSize="18" FontWeight="Bold" Grid.Column="3" Grid.Row="5"  Name="ans4" Width="200" Height="50" Content="Answer 4" Tag="3" Click="checkAnswer"/>
+        
+
+       
+    </Grid>
+
+</Window>

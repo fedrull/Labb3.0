@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Labb3_NET22"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" >
+
+    <Grid Height="434" VerticalAlignment="Bottom">
+
+            
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+         
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.RowSpan="6" Grid.Column="0" Grid.ColumnSpan="3">
+            <Image Source="/Images/windows-10.jpg" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </Border>
+
+        <Button Background="White" Name="btnStart" FontWeight="Bold" Content="Start Game" FontSize="20" Grid.Column ="1" Grid.Row="2" Height="40" Width="130" Click="btnStart_Click"/>
+        <Label Content="The Quiz Game " FontSize="55" FontWeight="Bold" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" />
+
+        <Button Background="White" Name="category" FontWeight="Bold" Content="Edit Quiz" FontSize="20" Grid.Column ="1" Grid.Row="3" Height="40" Width="130" Click="category_Click"/>
+        <Button Background="White" Name="btnStupid" FontWeight="Bold" Content="Don't Click" FontSize="20" Grid.Column ="1" Grid.Row="4" Height="40" Width="130" Click="btnStupid_Click"/>
+        
+
 
     </Grid>
+    
+
 </Window>

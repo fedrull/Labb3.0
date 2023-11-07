@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Labb3_NET22.DataModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,32 @@ namespace Labb3_NET22
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
+        }
+
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 newWindow1 = new Window1();
+
+            
+            newWindow1.Show();
+        }
+
+        private void btnStupid_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Are You Dumb!?");
+        }
+
+        private void category_Click(object sender, RoutedEventArgs e)
+        {
+            editQuizWindow newEditQuizWindow = new editQuizWindow();
+
+            newEditQuizWindow.Show();
+        }
+
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+           await Database.ReadFiles();
         }
     }
 }

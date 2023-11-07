@@ -1,0 +1,36 @@
+﻿<Window x:Class="Labb3_NET22.ScoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labb3_NET22"
+        mc:Ignorable="d"
+        Title="ScoreWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+           
+            <ColumnDefinition Width="20"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.RowSpan="6" Grid.Column="0" Grid.ColumnSpan="3">
+            <Image Source="/Images/windows-10.jpg" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </Border>
+
+        <Label Content="Your Score" FontSize="50" FontWeight="Bold" Grid.Column="1" Grid.Row="1" HorizontalContentAlignment="Center"/>
+        <Label Content="10" Name="scoreTxt" FontSize="40" FontWeight="Bold" Grid.Column="1" Grid.Row="2" HorizontalContentAlignment="Center"/>
+        <Button Background="white" Name="Back2Menu" Content="Back To Menu" FontSize="18" FontWeight="Bold" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Width="130" Height="40" Click="Back2Meny_Click"/>
+    </Grid>
+   
+    
+</Window>
